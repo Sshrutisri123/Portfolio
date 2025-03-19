@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
                         height={60}
                         unoptimized
                     />
-                    <span className="text-black text-xl ml-[-9] sm:ml-0">Ritesh</span>
+                    <span className="text-black text-xl ml-[-9] sm:ml-0">Shruti</span>
                 </div>
 
                 {/* Middle: About and Work */}

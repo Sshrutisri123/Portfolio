@@ -54,7 +54,7 @@ export default function Home() {
       <div className="z-50 w-full flex-col justify-center items-center bg-gray-100 space-y-2 sm:space-y-20">
 
         <div className="sm:hidden px-7 py-40 space-y-4">
-          <h2 className="text-base font-medium text-black">I’m Ritesh — a software developer and UI/UX designer. I build user-friendly apps by blending clean code with creative design.</h2>
+          <h2 className="text-base font-medium text-black">I’m Shruti — a software developer and UI/UX designer. I build user-friendly apps by blending clean code with creative design.</h2>
           <h2 className="text-base font-medium text-black ">Specializing in full-stack development, I turn ideas into smooth, high-performing digital products.</h2>
           <h2 className="text-base font-medium text-black">Passionate about technology and creativity, I constantly explore new tools and design trends to craft better apps.</h2>
           <h2 className="text-base font-medium text-black">Based in India, I’m open to work and collaborations from 10 AM to 8 PM (IST).</h2>
@@ -66,7 +66,7 @@ export default function Home() {
 
           {/* Transparent Glassmorphic Card Overlay */}
           <div className="absolute top-[55%] -translate-y-1/2 w-80 sm:w-200 p-6 rounded-2xl bg-white/10 backdrop-blur-lg shadow-lg border space-y-5 border-white/20">
-            <h2 className="text-xl font-medium text-black">I’m Ritesh — a software developer and UI/UX designer. I build user-friendly apps by blending clean code with creative design.</h2>
+            <h2 className="text-xl font-medium text-black">I’m Shruti — a software developer and UI/UX designer. I build user-friendly apps by blending clean code with creative design.</h2>
             <h2 className="text-xl font-medium text-black ">Specializing in full-stack development, I turn ideas into smooth, high-performing digital products.</h2>
             <h2 className="text-xl font-medium text-black">Passionate about technology and creativity, I constantly explore new tools and design trends to craft better apps.</h2>
             <h2 className="text-xl font-medium text-black">Based in India, I’m open to work and collaborations from 10 AM to 8 PM (IST).</h2>
