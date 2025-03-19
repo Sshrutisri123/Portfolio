@@ -8,12 +8,12 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto flex justify-between items-center">
 
                 {/* Left side: Icon and Name */}
-                <div className="flex ml-[-15] sm:ml-0 items-center">
+                <div className="flex ml-[-15] sm:ml-0 gap-4 items-center">
                     <Image
                         src="/Logo.png"
                         alt="Icon image"
-                        width={60}
-                        height={60}
+                        width={40}
+                        height={40}
                         unoptimized
                     />
                     <span className="text-black text-xl ml-[-9] sm:ml-0">Shruti</span>

@@ -2,7 +2,7 @@ export default function ResumeButton() {
     return (
       <a
         href="/resume.pdf" // Replace with your actual resume file path
-        download="Resume.pdf"
+        download="RESUME.pdf"
         className="relative px-4 py-2 text-white bg-black rounded-2xl overflow-hidden group flex justify-center items-center h-8 w-32"
       >
         {/* Default text (Moves up & rotates naturally on hover) */}

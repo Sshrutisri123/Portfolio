@@ -10,7 +10,7 @@ export default function Home() {
     <div className="w-screen max-w-full flex flex-col">
       <Navbar />
 
-      <main className="flex flex-col pt-16 mt-8 sm:mt-5 sm:pt-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 fixed w-full">
+      <main className="flex flex-col pt-16 mt-8 sm:mt-8 sm:pt-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 fixed w-full">
         {/* creative developer */}
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-black text-4xl md:text-8xl sm:text-9xl font-semibold">CREATIVE</h1>
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 
       {/* imaginary div to prevent overlapping */}
-      <div className="h-dvh w-screen bottom-4">
+      <div className="h-dvh w-full bottom-4">
       </div>
 
       <div className="z-50 w-full flex-col justify-center items-center bg-gray-100 space-y-2 sm:space-y-20">
