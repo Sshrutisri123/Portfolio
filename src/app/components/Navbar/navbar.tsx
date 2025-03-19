@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
                 {/* Left side: Icon and Name */}
                 <div className="flex ml-[-15] sm:ml-0 items-center">
                     <Image
-                        src="/Icon.png"
+                        src="/Logo.png"
                         alt="Icon image"
                         width={60}
                         height={60}
