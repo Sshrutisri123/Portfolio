@@ -154,7 +154,6 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row   w-full space-x-4">
                 {/* Logo Section */}
                 <img src="/logo1.jpg" alt="Project 1" width="60" height="60" className="rounded-lg sm:rounded-2xl sm:w-[60px] w-[50px]" />
-
                 {/* Text Section */}
                 <div className="flex flex-col">
                   <h2 className="text-black text-xl sm:text-3xl font-bold">Recipe Finder ⎯⟡ Your Ultimate Recipe Companion:
