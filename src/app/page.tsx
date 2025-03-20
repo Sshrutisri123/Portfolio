@@ -3,7 +3,6 @@ import Home_model from "@/app/components/3D_models/home_model";
 import Circular_text from '@/app/components/circular_text/circularText'
 import ResumeButton from "./components/Buttons/resumeButton";
 import FourModels from "./components/3D_models/fourModels";
-import Image from 'next/image';
 import Visit from './components/Buttons/visit';
 import Github from './components/Buttons/github';
 
@@ -83,7 +82,8 @@ export default function Home() {
         <div className="sm:p-12 pb-4">
           <div className="sm:flex flex flex-col justify-center gap-y-1 sm:gap-y-3 items-center">
 
-            <h1 className="text-black justify-center items-center text-3xl sm:text-7xl font-bold">Projects I've done</h1>
+            <h1 className="text-black justify-center items-center text-3xl sm:text-7xl font-bold">  Projects I&apos;ve done
+            </h1>
             <h2 className="text-gray-600 text-sm sm:text-xl text-center mt-2">
               Crafting web applications that drive growth and innovation. Explore some of my work below.
             </h2>
