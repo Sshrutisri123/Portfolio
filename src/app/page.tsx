@@ -3,6 +3,10 @@ import Home_model from "@/app/components/3D_models/home_model";
 import Circular_text from '@/app/components/circular_text/circularText'
 import ResumeButton from "./components/Buttons/resumeButton";
 import FourModels from "./components/3D_models/fourModels";
+import Image from 'next/image';
+import Visit from './components/Buttons/visit';
+import Github from './components/Buttons/github';
+
 
 export default function Home() {
 
@@ -76,16 +80,121 @@ export default function Home() {
         </div>
 
         {/* selected word section */}
-        <div className="p-12">
-          <h1 className="text-black text-xl sm:text-4xl font-medium">SELECTED WORKS</h1>
-          <hr className="text-black mt-5" />
+        <div className="sm:p-12 pb-4">
+          <div className="sm:flex flex flex-col justify-center gap-y-1 sm:gap-y-3 items-center">
 
-          {/* project cards */}
-          <div>
-            {/* project image */}
-          <div></div>
-            {/* project discription */}
-            <div></div>
+            <h1 className="text-black justify-center items-center text-3xl sm:text-7xl font-bold">Projects I've done</h1>
+            <h2 className="text-gray-600 text-sm sm:text-xl text-center mt-2">
+              Crafting web applications that drive growth and innovation. Explore some of my work below.
+            </h2>
+            {/* <hr className="text-black mt-5" /> */}
+          </div>
+
+
+          {/* NOTIFY FINDER */}
+
+          <div className="bg-zinc-300 gap-6 mt-7 sm:mx-40 mx-5 p-5 sm:py-14 sm:px-14 rounded-2xl">
+            <div className="gap-6 flex flex-col">
+              <div className="flex flex-col sm:flex-row w-full space-x-4">
+                {/* Logo Section */}
+                <img src="/logo1.jpg" alt="Project 1" width="60" height="60" className="rounded-lg sm:rounded-2xl sm:w-[60px] w-[50px]" />
+
+                {/* Text Section */}
+                <div className="flex flex-col">
+                  <h2 className="text-black text-xl sm:text-3xl font-bold">Notify-App ⎯⟡ Your Smart Note Keeper:
+                  </h2>
+                  <p className="text-gray-600 text-sm sm:font-normal">A seamless app to save and organize notes, documents, and more—effortlessly. 🚀
+                  </p>
+                </div>
+
+                {/* Button Section (Aligned to the Right) */}
+                <div className="hidden sm:flex space-x-3 ml-auto">
+                  <Github />
+                  <Visit />
+                </div>
+
+                {/* <div className="hidden sm:flex space-x-2  ml-auto ">
+                  <a
+                    href="https://note-app-main.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer bg-black text-white   "
+                  >
+                    Visit Site
+                  </a>
+                  <a
+                    href="https://github.com/Sshrutisri123/Note-app-main"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer bg-black text-white px-4 py-2 rounded-xl inline-block"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+
+              <div className="px-7 sm:mt-9 mt-4 flex justify-center">
+                <img
+                  src="/Project1.png"
+                  alt="Project 1"
+                  className="rounded-2xl mx-auto"
+                  width="1000"
+                  height="200"
+                />
+              </div>
+
+            </div>
+          </div>
+
+          {/* RECIPE FINDER */}
+
+
+          <div className="bg-pink-100 gap-6 mt-7 sm:mx-40 mx-5 p-5 sm:py-14 sm:px-14 rounded-2xl">
+            <div className="gap-6 flex flex-col">
+              <div className="flex flex-col sm:flex-row   w-full space-x-4">
+                {/* Logo Section */}
+                <img src="/logo1.jpg" alt="Project 1" width="60" height="60" className="rounded-lg sm:rounded-2xl sm:w-[60px] w-[50px]" />
+
+                {/* Text Section */}
+                <div className="flex flex-col">
+                  <h2 className="text-black text-xl sm:text-3xl font-bold">Recipe Finder ⎯⟡ Your Ultimate Recipe Companion:
+                  </h2>
+                  <p className="text-gray-600 text-sm sm:font-normal">Discover, save, and share mouthwatering recipes effortlessly. Cooking made fun and easy! 🍽️✨</p>
+
+                </div>
+
+                {/* Button Section (Aligned to the Left with Gap) */}
+                {/* Button Section (Aligned to the Right) */}
+                <div className="hidden sm:flex space-x-3 ml-auto">
+                  <Github />
+                  <Visit />
+                </div>
+
+
+                {/* <div className="hidden sm:flex space-x-3 ml-auto ">
+                  <a
+                    href="https://sshrutisri123.github.io/recipe-finder/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer bg-black text-white px-4 py-2 rounded-xl inline-block"
+                  >
+                    Visit Site
+                  </a>
+                  <a
+                    href="https://github.com/Sshrutisri123/recipe-finder"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer bg-black text-white px-4 py-2 rounded-xl inline-block"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+
+              <div className="px-7 sm:mt-9 mt-4 flex justify-center">
+                <img src="/a.png" alt="Project 1" className="rounded-2xl" width="1500" height="20" />
+              </div>
+            </div>
           </div>
         </div>
 
