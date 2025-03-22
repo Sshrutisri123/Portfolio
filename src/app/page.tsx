@@ -101,7 +101,7 @@ export default function Home() {
 
                 {/* Text Section */}
                 <div className="flex flex-col">
-                  <h2 className="text-black text-xl sm:text-3xl font-bold">Notify-App ⎯⟡ Your Smart Note Keeper:
+                  <h2 className="text-black text-xl sm:text-2xl font-bold">Notify-App ⎯⟡ Smart Note Keeper:
                   </h2>
                   <p className="text-gray-600 text-sm sm:font-normal">A seamless app to save and organize notes, documents, and more—effortlessly. 🚀
                   </p>
@@ -156,7 +156,7 @@ export default function Home() {
                 <img src="/logo1.jpg" alt="Project 1" width="60" height="60" className="rounded-lg sm:rounded-2xl sm:w-[60px] w-[50px]" />
                 {/* Text Section */}
                 <div className="flex flex-col">
-                  <h2 className="text-black text-xl sm:text-3xl font-bold">Recipe Finder ⎯⟡ Your Ultimate Recipe Companion:
+                  <h2 className="text-black text-xl sm:text-2xl font-bold">Recipe Finder ⎯⟡ Recipe Companion:
                   </h2>
                   <p className="text-gray-600 text-sm sm:font-normal">Discover, save, and share mouthwatering recipes effortlessly. Cooking made fun and easy! 🍽️✨</p>
 
@@ -165,7 +165,7 @@ export default function Home() {
                 {/* Button Section (Aligned to the Left with Gap) */}
                 {/* Button Section (Aligned to the Right) */}
                 <div className="hidden sm:flex space-x-3 ml-auto">
-                  <Github />
+                  <a href="https://sshrutisri123.github.io/recipe-finder/"><Github /></a>
                   <Visit />
                 </div>
 
