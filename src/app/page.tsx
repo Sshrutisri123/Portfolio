@@ -95,7 +95,7 @@ export default function Home() {
 
           <div className="bg-zinc-300 gap-6 mt-7 sm:mx-40 mx-5 p-5 sm:py-14 sm:px-14 rounded-2xl">
             <div className="gap-6 flex flex-col">
-              <div className="flex flex-col sm:flex-row w-full space-x-4">
+              <div className="flex flex-col sm:items-center sm:flex-row w-full space-x-4">
                 {/* Logo Section */}
                 <img src="/logo1.jpg" alt="Project 1" width="60" height="60" className="rounded-lg sm:rounded-2xl sm:w-[60px] w-[50px]" />
 
@@ -108,14 +108,17 @@ export default function Home() {
                 </div>
 
                 {/* Button Section (Aligned to the Right) */}
-                <div className="hidden sm:flex sm:items-end space-x-3 ml-auto">
+                <div className="hidden sm:flex sm:items-center space-x-3 ml-auto">
                   <a
                     href="https://github.com/Sshrutisri123/Note-app-main"
-                    target="_blank"><Github />
+                    target="_blank"
+                    className="bg-black rounded-xl">
+                      <Github />
                   </a>
                   <a
                     href="https://note-app-main.vercel.app"
-                    target="_blank"><Visit />
+                    target="_blank"
+                    className="bg-black rounded-xl"><Visit />
                   </a>
                 </div>
 
@@ -157,9 +160,9 @@ export default function Home() {
 
           <div className="bg-pink-100 gap-6 mt-7 sm:mx-40 mx-5 p-5 sm:py-14 sm:px-14 rounded-2xl">
             <div className="gap-6 flex flex-col">
-              <div className="flex flex-col sm:flex-row   w-full space-x-4">
+              <div className="flex flex-col sm:items-center sm:flex-row   w-full space-x-4">
                 {/* Logo Section */}
-                <img src="/logo1.jpg" alt="Project 1" width="60" height="60" className="rounded-lg sm:rounded-2xl sm:w-[60px] w-[50px]" />
+                <img src="/food.jpg" alt="Project 1" width="60" height="60" className="rounded-lg sm:rounded-2xl sm:w-[60px] w-[50px]" />
                 {/* Text Section */}
                 <div className="flex flex-col">
                   <h2 className="text-black text-xl sm:text-2xl font-bold">Recipe Finder ⎯⟡ Recipe Companion:
@@ -170,14 +173,16 @@ export default function Home() {
 
                 {/* Button Section (Aligned to the Left with Gap) */}
                 {/* Button Section (Aligned to the Right) */}
-                <div className="hidden sm:flex sm:items-end space-x-3 ml-auto">
+                <div className="hidden cursor-pointer  text-white sm:flex sm:items-center space-x-3 ml-auto">
                   <a href="https://github.com/Sshrutisri123/recipe-finder"
                     target="_blank"
+                    className="bg-[#FF6090] rounded-xl"
 
                   ><Github /></a>
                   <a
                     href="https://sshrutisri123.github.io/recipe-finder/"
-                    target="_blank"><Visit /></a>
+                    target="_blank"
+                    className="bg-[#FF6090] rounded-xl"><Visit /></a>
                 </div>
 
 
