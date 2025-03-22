@@ -108,9 +108,15 @@ export default function Home() {
                 </div>
 
                 {/* Button Section (Aligned to the Right) */}
-                <div className="hidden sm:flex space-x-3 ml-auto">
-                  <Github />
-                  <Visit />
+                <div className="hidden sm:flex sm:items-end space-x-3 ml-auto">
+                  <a
+                    href="https://github.com/Sshrutisri123/Note-app-main"
+                    target="_blank"><Github />
+                  </a>
+                  <a
+                    href="https://note-app-main.vercel.app"
+                    target="_blank"><Visit />
+                  </a>
                 </div>
 
                 {/* <div className="hidden sm:flex space-x-2  ml-auto ">
@@ -164,9 +170,14 @@ export default function Home() {
 
                 {/* Button Section (Aligned to the Left with Gap) */}
                 {/* Button Section (Aligned to the Right) */}
-                <div className="hidden sm:flex space-x-3 ml-auto">
-                  <a href="https://sshrutisri123.github.io/recipe-finder/"><Github /></a>
-                  <Visit />
+                <div className="hidden sm:flex sm:items-end space-x-3 ml-auto">
+                  <a href="https://github.com/Sshrutisri123/recipe-finder"
+                    target="_blank"
+
+                  ><Github /></a>
+                  <a
+                    href="https://sshrutisri123.github.io/recipe-finder/"
+                    target="_blank"><Visit /></a>
                 </div>
 
 
