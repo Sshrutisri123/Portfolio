@@ -5,6 +5,7 @@ import ResumeButton from "./components/Buttons/resumeButton";
 import FourModels from "./components/3D_models/fourModels";
 import Visit from './components/Buttons/visit';
 import Github from './components/Buttons/github';
+import Techstack from './components/techstack/techstack';
 
 
 export default function Home() {
@@ -92,7 +93,6 @@ export default function Home() {
 
 
           {/* NOTIFY FINDER */}
-
           <div className="bg-zinc-300 gap-6 mt-7 sm:mx-40 mx-5 p-5 sm:py-14 sm:px-14 rounded-2xl">
             <div className="gap-6 flex flex-col">
               <div className="flex flex-col sm:items-center sm:flex-row w-full space-x-4">
@@ -113,7 +113,7 @@ export default function Home() {
                     href="https://github.com/Sshrutisri123/Note-app-main"
                     target="_blank"
                     className="bg-black rounded-xl">
-                      <Github />
+                    <Github />
                   </a>
                   <a
                     href="https://note-app-main.vercel.app"
@@ -156,8 +156,6 @@ export default function Home() {
           </div>
 
           {/* RECIPE FINDER */}
-
-
           <div className="bg-pink-100 gap-6 mt-7 sm:mx-40 mx-5 p-5 sm:py-14 sm:px-14 rounded-2xl">
             <div className="gap-6 flex flex-col">
               <div className="flex flex-col sm:items-center sm:flex-row   w-full space-x-4">
@@ -212,6 +210,97 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* tech stack */}
+
+        <div className="sm:p-12 pb-4">
+          <div className="flex flex-col items-center justify-center gap-y-2 sm:gap-y-4">
+            <h1 className="text-black text-3xl sm:text-7xl font-bold text-center">
+              Tech Stack
+            </h1>
+            <h2 className="text-gray-600 text-sm sm:text-xl text-center mt-2">
+              Building scalable and high-performance web applications with modern technologies.
+              Explore my expertise below.
+            </h2>
+            {/* <hr className="border-black mt-5 w-full sm:w-3/4" /> */}
+          </div>
+        </div>
+
+        <Techstack />
+
+
+        {/* My Expertise Section */}
+        <div className="sm:p-12 pb-6 mt-10">
+          <div className="flex flex-col items-center justify-center gap-y-2 sm:gap-y-4">
+            <h1 className="text-black text-3xl sm:text-7xl font-bold text-center">
+              My Expertise
+            </h1>
+            {/* <hr className="bg-[#A0A0A0] w-full "></hr> */}
+          </div>
+
+          {/* Expertise Cards */}
+          <div className="flex flex-col sm:flex-row justify-center items-center mt-8 sm:mt-20 gap-6 sm:gap-20">
+
+            {/* UI/UX DESIGN */}
+            <div className="relative bg-white shadow-lg rounded-2xl p-14 h-[414px] sm:w-[320px] w-72 transition-transform transform hover:scale-105">
+              <span className="text-gray-400 text-lg font-semibold">01</span>
+              <h3 className="text-black font-bold text-3xl mt-2">UI/UX DESIGNS</h3>
+              <p className="text-gray-600 tracking-wider text-xl mt-10">
+                Turning ideas into intuitive designs —
+                because great UI is silent, but impactful.
+              </p>
+              {/* Circular Arrow Icon */}
+              <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-3xl items-center justify-center rounded-full text-white ">
+                ↗
+              </span>
+            </div>
+
+            {/* FRONTEND DEVELOPMENT */}
+            <div className="relative bg-white shadow-lg rounded-2xl p-14 h-[414px] sm:w-[320px] w-72 transition-transform transform hover:scale-105">
+              <span className="text-gray-400 text-lg font-semibold">02</span>
+              <h3 className="text-black font-bold text-3xl mt-2">FRONTEND DEVELOPMENT</h3>
+              <p className="text-gray-600 tracking-wider text-xl mt-10">
+                Turning ideas into intuitive designs —
+                because great UI is silent, but impactful.
+              </p>
+              {/* Circular Arrow Icon */}
+              <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-3xl items-center justify-center rounded-full text-white ">
+                ↗
+              </span>
+            </div>
+
+            {/* FULL-STACK DEVELOPMENT */}
+            <div className="relative bg-white shadow-lg rounded-2xl p-14 h-[414px] sm:w-[320px] w-72 transition-transform transform hover:scale-105">
+              <span className="text-gray-400 text-lg font-semibold">03</span>
+              <h3 className="text-black font-bold text-3xl mt-2">FULL-STACK DEVELOPMENT</h3>
+              <p className="text-gray-600 tracking-wider text-xl mt-10">
+                Engineering end-to-end solutions—
+                seamless frontend, powerful backend.
+              </p>
+              {/* Circular Arrow Icon */}
+              <span className="absolute cursor-pointer bottom-7 right-6 bg-black w-10 h-10 flex text-3xl items-center justify-center rounded-full text-white ">
+                ↗
+              </span>
+            </div>
+
+          </div>
+        </div>
+
+        <div className="bg-black mt-52 ">
+          <div className="p-20">
+            <div className="flex flex-col">
+              <span className="text-white">
+                LETS WORKS TOGETHER
+              </span>
+              <div className=""> <span className="text-gray-400">
+                pvt</span><span className="text-white">shrutisri08@gmail.com
+                </span></div>
+            </div>
+          </div>
+        </div>
+
+
+
 
 
 
