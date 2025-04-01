@@ -1,10 +1,12 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
 import MenuButton from '@/app/components/MenuButton/menuButton';
-
+import { motion } from 'framer-motion';
 const Navbar: React.FC = () => {
     return (
-        <nav className="w-screen p-4 fixed">
+        <motion.nav className="w-screen p-4 fixed">
             <div className="container mx-auto flex justify-between items-center">
 
                 {/* Left side: Icon and Name */}
@@ -33,7 +35,7 @@ const Navbar: React.FC = () => {
                 </div>
 
             </div>
-        </nav>
+        </motion.nav>
     );
 };
 

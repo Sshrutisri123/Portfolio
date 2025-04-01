@@ -6,7 +6,7 @@ import FourModels from "./components/3D_models/fourModels";
 import Visit from './components/Buttons/visit';
 import Github from './components/Buttons/github';
 import Techstack from './components/techstack/techstack';
-
+import Footer from './components/footer/footer';
 
 export default function Home() {
 
@@ -243,6 +243,8 @@ export default function Home() {
 
             {/* UI/UX DESIGN */}
             <div className="relative bg-white shadow-lg rounded-2xl p-14 h-[414px] sm:w-[320px] w-72 transition-transform transform hover:scale-105">
+              <div className="absolute bg-pink-500 w-15 top-45 right-35 blur-2xl h-15"></div>
+
               <span className="text-gray-400 text-lg font-semibold">01</span>
               <h3 className="text-black font-bold text-3xl mt-2">UI/UX DESIGNS</h3>
               <p className="text-gray-600 tracking-wider text-xl mt-10">
@@ -257,6 +259,9 @@ export default function Home() {
 
             {/* FRONTEND DEVELOPMENT */}
             <div className="relative bg-white shadow-lg rounded-2xl p-14 h-[414px] sm:w-[320px] w-72 transition-transform transform hover:scale-105">
+              <div className="absolute bg-blue-500 w-10 top-10 right-15 blur-2xl h-15"></div>
+              <div className="absolute bg-red-500 w-15 top-70 right-45 blur-2xl h-15"></div>
+
               <span className="text-gray-400 text-lg font-semibold">02</span>
               <h3 className="text-black font-bold text-3xl mt-2">FRONTEND DEVELOPMENT</h3>
               <p className="text-gray-600 tracking-wider text-xl mt-10">
@@ -271,6 +276,8 @@ export default function Home() {
 
             {/* FULL-STACK DEVELOPMENT */}
             <div className="relative bg-white shadow-lg rounded-2xl p-14 h-[414px] sm:w-[320px] w-72 transition-transform transform hover:scale-105">
+              <div className="absolute bg-green-500 w-15 top-45 right-35 blur-2xl h-15"></div>
+
               <span className="text-gray-400 text-lg font-semibold">03</span>
               <h3 className="text-black font-bold text-3xl mt-2">FULL-STACK DEVELOPMENT</h3>
               <p className="text-gray-600 tracking-wider text-xl mt-10">
@@ -286,27 +293,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-black mt-52 ">
-          <div className="p-20">
-            <div className="flex flex-col">
-              <span className="text-white">
-                LETS WORKS TOGETHER
-              </span>
-              <div className=""> <span className="text-gray-400">
-                pvt</span><span className="text-white">shrutisri08@gmail.com
-                </span></div>
-            </div>
-          </div>
-        </div>
 
 
-
+        <Footer />
 
 
 
       </div>
 
 
-    </div>
+    </div >
   );
 }
