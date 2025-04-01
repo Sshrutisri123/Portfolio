@@ -33,7 +33,7 @@ const Footer = () => {
           <span>2025 © Edition</span>
           <span>Local Time: 2:31 AM GMT+5:30</span>
           <div className="flex flex-col space-y-3 space-x-4">
-            <h3>Socials</h3>
+            
             <div className='flex space-x-4'>
               <Link href="#" className="hover:text-white">LinkedIn</Link>
               <Link href="#" className="hover:text-white">Threads</Link>

@@ -7,6 +7,7 @@ import Visit from './components/Buttons/visit';
 import Github from './components/Buttons/github';
 import Techstack from './components/techstack/techstack';
 import Footer from './components/footer/footer';
+import CreativeDev from "./components/homepageitems/CreativeDev";
 
 export default function Home() {
 
@@ -16,10 +17,7 @@ export default function Home() {
 
       <main className="flex flex-col pt-16 mt-8 sm:mt-8 sm:pt-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 fixed w-full">
         {/* creative developer */}
-        <div className="flex flex-col justify-center items-center">
-          <h1 className="text-black text-4xl md:text-8xl sm:text-9xl font-semibold">CREATIVE</h1>
-          <h1 className="text-black text-4xl md:text-8xl sm:text-9xl font-semibold">DEVELOPER</h1>
-        </div>
+       <CreativeDev />
 
         {/* 3D model */}
         <div className="h-60 flex justify-center items-center">

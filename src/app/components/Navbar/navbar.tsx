@@ -23,16 +23,36 @@ const Navbar: React.FC = () => {
 
                 {/* Middle: About and Work */}
                 <div className="hidden md:flex space-x-4">
-                    <a href="#about" className="text-black text-xl">About</a>
-                    <a href="#work" className="text-black text-xl">Work</a>
+                    <motion.a
+
+                        whileHover={{ scale: 1.2 }}
+
+
+                        href="#about" className="text-black text-xl">About</motion.a>
+                    <motion.a
+
+                        whileHover={{ scale: 1.2 }}
+
+                        href="#work" className="text-black text-xl">Work</motion.a>
                 </div>
 
-                {/* Right side: Contact Me */}
-                <div className='flex'>
-                    <a href="#contact" className="text-black text-xl hidden md:flex">
-                        <span className="mr-2 transform scale-x-150">→</span>Contact Me</a>
-                        <MenuButton/>
+                <div className="flex items-center">
+                    <span className="mr-0 transform scale-x-150 text-black text-xl">→</span>
+                    <div className="relative h-8 w-32 overflow-hidden group flex ml-3 items-center">
+                        <a href="#contact"
+                            className="absolute cursor-pointer transition-all duration-500 ease-out group-hover:-translate-y-6 group-hover:opacity-0 text-black text-xl hidden md:flex"
+                        >
+                            Contact Me
+                        </a>
+                        <span className="absolute cursor-pointer transition-all duration-500 ease-out translate-y-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 text-black text-xl">
+                            Now
+                        </span>
+                    </div>
+
+                    <MenuButton />
                 </div>
+
+
 
             </div>
         </motion.nav>
