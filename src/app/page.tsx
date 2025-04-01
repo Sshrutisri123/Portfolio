@@ -8,6 +8,7 @@ import Github from './components/Buttons/github';
 import Techstack from './components/techstack/techstack';
 import Footer from './components/footer/footer';
 import CreativeDev from "./components/homepageitems/CreativeDev";
+import SubtitleText from "./components/subtitle/Subtitle";
 
 export default function Home() {
 
@@ -17,7 +18,7 @@ export default function Home() {
 
       <main className="flex flex-col pt-16 mt-8 sm:mt-8 sm:pt-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 fixed w-full">
         {/* creative developer */}
-       <CreativeDev />
+        <CreativeDev />
 
         {/* 3D model */}
         <div className="h-60 flex justify-center items-center">
@@ -26,10 +27,7 @@ export default function Home() {
 
         {/* subtitle section */}
         <div className="text-black font-normal text-xs sm:text-xl mt-4 sm:mt-10 flex flex-col justify-center items-center">
-          <p>
-            Blending design, code, and innovation to craft seamless
-          </p>
-          <p>digital experiences.</p>
+          <SubtitleText />
 
           <div className="mt-4 sm:mt-2 flex space-x-4 ">
             <div className="flex items-center gap-2">
